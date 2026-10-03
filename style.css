@@ -1,0 +1,362 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 2rem;
+	background: #f1f3ec;
+	color: #29352d;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	line-height: 1.6;
+}
+
+/* PAGE LAYOUT */
+
+.page-wrapper {
+	display: grid;
+	grid-template-columns: minmax(0, 2fr) minmax(15rem, 1fr);
+	gap: 1.5rem;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.intro,
+.main.supporting {
+	grid-column: 1;
+}
+
+/* TYPOGRAPHY */
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	line-height: 1.2;
+}
+
+h1 {
+	margin-bottom: 0.25rem;
+	font-size: 3.5rem;
+}
+
+.intro header h2 {
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+/* HEADER / BANNER */
+
+.intro header {
+	padding: 2.5rem;
+	background-color: #315d45;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/Bamboo branch.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+	color: #fff;
+}
+
+
+/* PREAMBLE */
+
+.preamble {
+	margin-top: 1.25rem;
+	padding: 1.5rem;
+	background-color: #fff;
+	border: 1px solid #dce2d8;
+	border-radius: 0.35rem;
+}
+
+.preamble::before {
+	content: "";
+	display: block;
+	height: 180px;
+	margin-bottom: 1.5rem;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/bonsai-garden.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+}
+
+/* MAIN SUPPORTING */
+
+.main.supporting > div:not(footer) {
+	margin-top: 1.25rem;
+	padding: 1.5rem;
+	background-color: #fff;
+	border: 1px solid #dce2d8;
+	border-radius: 0.35rem;
+}
+
+/* EXPLANATION */
+
+.explanation::before {
+	content: "";
+	display: block;
+	height: 180px;
+	margin-bottom: 1.5rem;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/garden-lantern-stone.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+}
+
+/* PARTICIPATION */
+
+.participation::before {
+	content: "";
+	display: block;
+	height: 180px;
+	margin-bottom: 1.5rem;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/miniature-rake-sandbox.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+}
+
+/* BENEFITS */
+
+.benefits::before {
+	content: "";
+	display: block;
+	height: 180px;
+	margin-bottom: 1.5rem;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/serene-rock-garden.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+}
+
+/* REQUIREMENTS */
+
+.requirements::before {
+	content: "";
+	display: block;
+	height: 180px;
+	margin-bottom: 1.5rem;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/tranquil-zen-garden.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+}
+
+/* SUMMARY */
+
+.summary {
+	margin-top: 1.25rem;
+	padding: 1.5rem;
+	background-color: #fff;
+	border: 1px solid #dce2d8;
+	border-left: 0.35rem solid #86a66b;
+	border-radius: 0.35rem;
+}
+
+.summary::before {
+	content: "";
+	display: block;
+	height: 180px;
+	margin-bottom: 1.5rem;
+	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/zen-sculptures.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0.35rem;
+}
+
+.summary p:last-child,
+.main.supporting p:last-child {
+	margin-bottom: 0;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+	grid-column: 2;
+	grid-row: 1 / span 2;
+}
+
+.sidebar .wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+/* Sidebar sections */
+
+.sidebar .wrapper > div {
+	padding: 1.5rem;
+	background: #fff;
+	border: 1px solid #dce2d8;
+	border-radius: 0.35rem;
+}
+
+/* Sidebar headings */
+
+.sidebar h3 {
+	margin-bottom: 1rem;
+	padding-bottom: 0.6rem;
+	border-bottom: 2px solid #86a66b;
+	color: #315d45;
+	font-size: 1.25rem;
+}
+
+/* DESIGN SELECTION */
+
+.design-selection ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.design-selection li {
+	margin-bottom: 0.75rem;
+	padding: 0.75rem;
+	background: #f1f3ec;
+	border-left: 0.25rem solid #86a66b;
+	border-radius: 0.25rem;
+}
+
+.design-selection li:last-child {
+	margin-bottom: 0;
+}
+
+.design-selection .design-name {
+	display: block;
+	margin-bottom: 0.15rem;
+	color: #315d45;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.design-selection .design-name:hover,
+.design-selection .design-name:focus {
+	color: #203d2d;
+}
+
+.design-selection .designer-name {
+	color: #668967;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+.design-selection .designer-name:hover,
+.design-selection .designer-name:focus {
+	color: #315d45;
+	text-decoration: underline;
+}
+
+/* DESIGN ARCHIVES */
+
+.design-archives ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.design-archives li {
+	margin-bottom: 0.75rem;
+}
+
+.design-archives li:last-child {
+	margin-bottom: 0;
+}
+
+.design-archives a {
+	display: block;
+	padding: 0.7rem 1rem;
+	background: #315d45;
+	border: 1px solid #315d45;
+	border-radius: 0.35rem;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 600;
+}
+
+.design-archives a:hover,
+.design-archives a:focus {
+	background: #86a66b;
+	border-color: #86a66b;
+	color: #fff;
+}
+
+/* HEADINGS */
+
+.main.supporting h3 {
+	margin-bottom: 0.6rem;
+	color: #315d45;
+}
+
+/* FOOTER */
+
+.main.supporting footer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-top: 1.5rem;
+}
+
+.main.supporting footer a {
+	display: inline-block;
+	padding: 0.6rem 1rem;
+	background: #315d45;
+	border: 1px solid #315d45;
+	border-radius: 0.35rem;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.main.supporting footer a:hover,
+.main.supporting footer a:focus {
+	background: #86a66b;
+	border-color: #86a66b;
+	color: #fff;
+}
+
+/* LINKS */
+
+a {
+	color: #426d50;
+}
+
+a:hover,
+a:focus {
+	color: #203d2d;
+}
+
+/* MOBILE / RESPONSIVE WINDOW */
+
+@media (max-width: 700px) {
+	body {
+		padding: 1rem;
+	}
+
+	.page-wrapper {
+		display: block;
+	}
+
+	.intro header {
+		padding: 1.75rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	.sidebar {
+		margin-top: 1.25rem;
+	}
+
+	.sidebar .wrapper {
+		gap: 1rem;
+	}
+}
