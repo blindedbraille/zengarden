@@ -51,7 +51,7 @@ h1 {
 .intro header {
 	padding: 2.5rem;
 	background-color: #315d45;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/Bamboo branch.jpg');
+	background-image: url('Bamboo branch.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -75,7 +75,7 @@ h1 {
 	display: block;
 	height: 180px;
 	margin-bottom: 1.5rem;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/bonsai-garden.jpg');
+	background-image: url('bonsai-garden.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -99,7 +99,7 @@ h1 {
 	display: block;
 	height: 180px;
 	margin-bottom: 1.5rem;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/garden-lantern-stone.jpg');
+	background-image: url('garden-lantern-stone.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -113,7 +113,7 @@ h1 {
 	display: block;
 	height: 180px;
 	margin-bottom: 1.5rem;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/miniature-rake-sandbox.jpg');
+	background-image: url('miniature-rake-sandbox.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -127,7 +127,7 @@ h1 {
 	display: block;
 	height: 180px;
 	margin-bottom: 1.5rem;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/serene-rock-garden.jpg');
+	background-image: url('serene-rock-garden.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -141,7 +141,7 @@ h1 {
 	display: block;
 	height: 180px;
 	margin-bottom: 1.5rem;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/tranquil-zen-garden.jpg');
+	background-image: url('tranquil-zen-garden.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -164,7 +164,7 @@ h1 {
 	display: block;
 	height: 180px;
 	margin-bottom: 1.5rem;
-	background-image: url('/Users/jordanomalley/Desktop/School/Year 3/Web Tech 3/In Class Lab/Week 3/images/zen-sculptures.jpg');
+	background-image: url('zen-sculptures.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
